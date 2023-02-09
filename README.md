@@ -22,6 +22,13 @@ __psycopg2__ is the most popular PostgreSQL database adpter for the Python progr
 to create .py file: `touch sql-psycopg2.py`
 
 
+__Introducing an ORM__ - Object-Relational-Mapping (django, SQLAlchemy)
+
+- SQLAlchemy (Expression language)
+
+`pip3 install SQLAlchemy`
+`touch sql-expression.py`
+
 
 
 
