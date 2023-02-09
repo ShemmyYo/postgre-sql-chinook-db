@@ -1,3 +1,35 @@
+
+__PostrgreSQL__
+
+- object relational db
+- case sensitive
+- supports Python & JS
+
+to initiate sql file in git terminal: `wget htps://file_name.sql`
+to lounch: `psql` (if error connectin to server - `set_pg`)
+to view / list db in PostgreSQL invironment: `postgres=# \l`
+to create db: `CREATE DATABESA name`
+to switch between db: `\c name`
+to install db from file `\i name`
+to connect to db and start server: `psql -d name`
+to view tables from db: `\dt`
+
+sample SQL query: `SELECT * FROM "Artists" WHERE "ArtistID" = 52 / 'Queen'`
+
+__psycopg2__ is the most popular PostgreSQL database adpter for the Python programming language.
+
+`pip3 install psycopg2`
+to create .py file: `touch sql-psycopg2.py`
+
+
+
+
+
+
+
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome ShemmyYo,
